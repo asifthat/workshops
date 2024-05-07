@@ -6,8 +6,8 @@ function App() {
   const [isConnected, setIsConnected] = useState(false);
   const [count, setCount] = useState(0);
 
-  let codeHash = "";
-  let contractAddress = "";
+  let codeHash = "6ebb86eb2eda6add6fb77b0bffbdda199331751a1a365c3fa8de8ef3a55b653a";
+  let contractAddress = "secret1e4wj5ujg5x907wpm96ntfz2l8ydc56523m9g4e";
 
   const connectWallet = async () => {
     try {
